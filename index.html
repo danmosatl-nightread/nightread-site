@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nightread — What's the read on tonight?</title>
+<title>NightSEEN — See where the night is</title>
 <meta name="description" content="Dead or lit? Know before you go. See which bars and clubs are packed, live. Coming soon to Atlanta.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
     font-size: clamp(56px, 13vw, 150px); letter-spacing: 0.02em; }
   .night { color: #fff; text-shadow: 0 0 6px #fff, 0 0 18px rgba(255,255,255,.55); }
   .read { color: var(--red); text-shadow: 0 0 6px var(--red), 0 0 22px var(--red), 0 0 48px rgba(229,32,46,.6);
-    animation: flicker 6s infinite; }
+    display: inline-block; transform: skewX(-12deg); animation: flicker 6s infinite; }
   @keyframes flicker { 0%,92%,100% { opacity: 1 } 93% { opacity: .55 } 94% { opacity: 1 } 96% { opacity: .7 } 97% { opacity: 1 } }
   .tag { margin-top: 28px; font-size: clamp(20px, 3.2vw, 30px); font-weight: 600; }
   .sub { margin-top: 14px; color: #b4b4bb; font-size: clamp(15px, 2vw, 18px); max-width: 560px; line-height: 1.55; }
@@ -36,14 +36,14 @@
 </style>
 </head>
 <body>
-  <h1 class="logo"><span class="night">NIGHT</span><br><span class="read">READ</span></h1>
-  <p class="tag">What's the read on tonight?</p>
+  <h1 class="logo"><span class="night">NIGHT</span><br><span class="read">SEEN</span></h1>
+  <p class="tag">See where the night is.</p>
   <p class="sub">Dead or lit? Know before you go. See which bars &amp; clubs are packed, live. Don't waste your night.</p>
   <span class="badge">Coming soon · Atlanta</span>
   <nav class="social">
     <a href="https://www.instagram.com/nightreadai" target="_blank" rel="noopener">Instagram @nightreadai</a>
     <a href="https://x.com/nightreadai" target="_blank" rel="noopener">X @nightreadai</a>
   </nav>
-  <footer>© 2026 Nightread · 21+ · Please drink responsibly.</footer>
+  <footer>© 2026 NightSEEN.ai · 21+ · Please drink responsibly.</footer>
 </body>
 </html>
